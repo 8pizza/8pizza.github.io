@@ -9,7 +9,7 @@
     + 데이터는 테이블(table)에 레코드(record)로 저장
     + 테이블에는 명확하게 정의된 구조(structure)가 존재
     + 구조는 필드(field)의 이름과 데이터 유형으로 정의
- 
+ ![table_structure](https://user-images.githubusercontent.com/19465623/113081999-ad559380-9214-11eb-9337-b6c911f222ba.jpg)
     + 스키마를 준수하지 않는 레코드는 추가할 수 없음
   - 관계 (Relation)
     + 데이터들을 여러 개의 테이블에 나누어서, 데이터들의 중복을 피할 수 있음
