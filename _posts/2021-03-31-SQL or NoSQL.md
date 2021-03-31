@@ -1,6 +1,6 @@
 ### SQL or NoSQL
 
-* SQL (Structured Query Language) - Relational DataBase
+#### SQL (Structured Query Language) - Relational DataBase
   - RDBMS(Relational DataBase Management System)에서 데이터를 저장, 수정, 삭제 및 검색 가능함
   - 주요 특징
     + 데이터는 정해진(엄격한) 데이터 스키마(=structure)를 따라 데이터베이스 테이블에 저장
@@ -16,7 +16,7 @@
     + 이는 다른 테이블에서 부정확한 데이터를 다룰 위험이 없음
  ![table_relation](https://user-images.githubusercontent.com/19465623/113089794-5acfa380-9223-11eb-921c-0c657f48eac6.jpg)
 
-* NoSQL (No Structured Query Language) - No Relational DataBase
+#### NoSQL (No Structured Query Language) - No Relational DataBase
   - 스키마 없음
   - 관계 없음
   - 레코드 = Documents
@@ -44,7 +44,7 @@
   - SQL 데이터베이스는 [샤딩(Sharding)](https://newbread.github.io/Sharding/ "Sharding")의 개념을 알고 있지만 특정 제한이 있으며 구현하기가 대체로 어려움
   - NoSQL 데이터베이스는 이를 기본적으로 지원 --> 여러 서버에서 데이터베이스를 쉽게 분리 가능
 
-* 장/단점
+#### 장/단점
   - 데이터의 종류와 데이터를 사용하는 어플리케이션을 고려하여 결정
   - SQL
     + 장점
@@ -70,5 +70,5 @@
       * Read는 자주 하지만, Update를 자주 하지 않는 경우
       * 데이터베이스의 수평적 확장이 필요한 경우 (대량의 데이터 처리가 필요)
 
-* Reference
+#### Reference
   - https://siyoon210.tistory.com/130 의 내용을 인용함
